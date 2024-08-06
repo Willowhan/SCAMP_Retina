@@ -55,6 +55,11 @@ int main(){
 		sub(A, D, E);// Bioplor ON
 		//sub(A, A, E);// Bioplor ON
 		sub(F, E,D);  // Bioplor OFF
+		add(A, A, C); // Bioplor ON Enhanced
+		add(F, F, C); // Bioplor OFF Enhanced
+		sub(E, A, F); // Parvo 
+		divq(B, C);
+		add(E, E, B);  //Parvo 边缘细节同时增强
 
 
 		scamp5_kernel_end();
